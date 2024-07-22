@@ -2,7 +2,7 @@
 
 ## Overview
 
-The goal for this assignment is to develop a model that can automatically generate descriptive captions for short videos, considering the diverse attributes of the videos, such as varying objects and actions, and handling the variable length of both the input videos and the output captions.
+The goal for this project is to develop a model that can automatically generate descriptive captions for short videos, considering the diverse attributes of the videos, such as varying objects and actions, and handling the variable length of both the input videos and the output captions.
 
 ## Dataset
 
