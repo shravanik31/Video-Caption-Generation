@@ -68,6 +68,7 @@ The dataset used for this project is the Microsoft Video Description Corpus (MSV
     ```bash
     python3 training.py /path/to/training_data/feat /path/to/training_label.json
     ```
+    - Ensure you specify your respective paths to the training data features folder and training_label.json file.
 
 - **Parameters**:
     - Number of epochs: 200
@@ -82,12 +83,13 @@ The dataset used for this project is the Microsoft Video Description Corpus (MSV
 ## Testing
 
 - **Preparation**:
-    - Download the pretrained model `model_shravani.h5`, `testing_label.json`, `index_to_word.pickle`, and `blue_eval.py`.
+    - Before testing, download the pretrained model model_shravani.h5, testing_label.json, index_to_word.pickle, and blue_eval.py files to your respective directory. To test the model, run the following command:
 
 - **Command**:
     ```bash
     sh hw2_seq2seq.sh /path/to/testing_data output_captions.txt
     ```
+    - Specify your respective paths to the testing data folder and output_captions.txt file.
 
 - **Output**:
     - Generated captions stored in an output file.
