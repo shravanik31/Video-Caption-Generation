@@ -97,17 +97,3 @@ The dataset used for this project is the Microsoft Video Description Corpus (MSV
 
 - The average BLEU score obtained is 0.625.
 - [Download Model](https://drive.google.com/file/d/19dvvQgTKG4UelaMULE6lmvMWQ06yPlLJ/view?usp=sharing)
-
-## Execution Process
-
-### Training
-
-```bash
-python3 training.py /path/to/training_data/feat /path/to/training_label.json
-```
-
-### Testing
-
-```bash
-sh hw2_seq2seq.sh /path/to/testing_data output_captions.txt
-```
